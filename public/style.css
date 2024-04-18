@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100dvh;
+  background-color: #0007;
+}
+
+header {
+  height: 10%;
+  background-color: #202c33;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+main {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #202c33;
+}
+
+.MsgSec {
+  height: 100%;
+  background-color: #0c1317;
+  position: relative;
+}
+
+.msgWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  overflow: auto;
+  max-height: 100%;
+}
+
+.OutgoingMsg {
+  color: #fff;
+  max-width: 70%;
+  margin-left: auto;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  background-color: #005c4b;
+  font-size: 1rem;
+}
+
+.incomingMsg {
+  color: #fff;
+  max-width: 70%;
+  margin-right: auto;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  background-color: #202c33;
+  font-size: 1rem;
+}
+
+.incomingMsg p {
+  margin: 0px;
+}
+
+.incomingMsg h4 {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+.OutgoingMsg p {
+  margin: 0px;
+}
+
+.OutgoingMsg h4 {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+.timeStamp {
+  font-size: 0.5rem;
+  color: #fff7;
+  position: relative;
+  bottom: -5px;
+}
